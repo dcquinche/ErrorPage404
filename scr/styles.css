@@ -1,0 +1,56 @@
+.contentPrincipal {
+    background-color: white;
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+}
+
+#title {
+    font-size: 15px;
+}
+
+#title2 {
+    font-size: 80px;
+    font-weight: 500s;
+}
+
+#homeButton {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 2em;
+    margin: 2em;
+}
+
+footer {
+    position: relative;
+    margin-top: -1px;
+    justify-content: center;
+    align-items: center;
+}
+
+#foot {
+    color: gray;
+}
+
+@media (min-width: 1440px){
+    .contentPrincipal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-size: 24px;
+    }
+
+    footer {
+        margin-top: -100px;
+    }
+
+    #title2 {
+        font-size: 70px; 
+    }
+
+    #homeButton {
+        padding: 1em;
+    }
+
+}
